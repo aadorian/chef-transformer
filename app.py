@@ -228,7 +228,7 @@ def main():
             prompt_box = EXAMPLES[prompt]
 
         items = st.text_area(
-            'Insert your food items here (separated by `,`): ',
+            'Insertar los items de comida (separated by `,`): ',
             pure_comma_separation(prompt_box, return_list=False),
         )
         items = pure_comma_separation(items, return_list=False)
